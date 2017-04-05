@@ -14,3 +14,4 @@ public class Main {
         System.out.println(sb);
     }
 }
+//sb never updated so infinite loop

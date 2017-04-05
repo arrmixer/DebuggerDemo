@@ -8,7 +8,7 @@ public class StringUtilities {
     private int charsAdded = 0;
 
     public void addChar(StringBuilder sBuilder, char c){
-        this.sBuilder.append(c);
+        sBuilder.append(c); // had this.sBuidler.append(c) caused a bug.. not updating the Parameter but the field..
         charsAdded++;
     }
 }
